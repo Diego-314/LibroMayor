@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Creador de Cuadro Resultado
+	</title>
+	<style type="text/css">
+		
+		button {
+			display: block;
+			margin-top: 5px;
+		}
+
+		.input2 {
+			display: inline;
+		}
+
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding: 10px;
+		}
+		th, td {
+			margin: auto;
+		}
+
+	</style>
+</head>
+<body>
+
+
+<select id="type">
+	
+	<option>A</option>
+	<option>P</option>
+	<option>PN</option>
+	<option>RN</option>
+	<option>RP</option>
+
+</select>
+<input id="cuenta" placeholder="Escribe el nombre de la cuenta">
+
+<br>
+
+<div id="workSpace"></div>
+
+
+<br>
+<button id="addvalue">
+	+   Agregar otro valor
+</button>
+
+
+
+
+<button id="endbtn">
+	Agregar al cuadro
+</button>
+
+<button id="checkbtn">
+	Revisar datos
+</button>
+
+<br>
+<hr>
+<br>
+
+<br>
+<br>
+<div>
+	<table id="cuadro">
+		<tr>
+			<th>
+				Cuenta
+			</th>
+			<th>
+				Deudor
+			</th>
+			<th>
+				Acreedor
+			</th>
+			<th>
+				Activo
+			</th>
+			<th>
+				Pasivo + PN
+			</th>
+			<th>
+				RN
+			</th>
+			<th>
+				RP
+			</th>
+		</tr>
+	</table>
+</div>
+
+
+<script src="001.js"></script>
+<script src="002.js"></script>
+<script src="003.js"></script>
+</body>
+</html>
